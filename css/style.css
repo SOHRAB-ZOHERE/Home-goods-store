@@ -1,0 +1,343 @@
+*{background: #f0f3f4;margin: 0;padding: 0;direction: rtl;}
+.header{width: 100%;height: 131px;background: white;}
+.hed-1 {width: 100%;height: 70px;background: white;}
+.img {width: 138px;height: 45px;position: absolute;top:10px;right: 54px; }
+.img img{width: 100%;height: 100%;background: white}
+.search{width: 40%;height: 38px;background: #f0f3f4;margin-right:25%;top:15px;position: absolute;border-radius: 5px;}
+.search button i{color: #c9c9ca;font-size: 24px;height: 32px;position: relative;top: 6px;}
+.search button {border: none}
+.search input{width: 93%;height: 33px;border: none;}
+.left{width: 30%;height: 70px;position: absolute;left: 54px;background: white }
+.left span{ width:43px;height:38px;position: absolute;left: 0;top:15px; border-radius: 5px }
+.left i{ font-size: 31px;position: absolute;color:#858b8f;width: 100%;height: 100%;background: transparent;right: 9px;top: 2px;  }
+.left ul{background:#eff1f5;position: absolute;width: 37%;top: 15px;right: 185px;height: 39px;border-radius: 5px;}
+.left ul li{display: inline-block;background: transparent;line-height: 2;position: relative;margin-right: 35px;}
+.left ul li:nth-child(2){margin: 0}
+.left ul li a{text-decoration: none;font-size: 20px;color: #858b8f;}
+.left ul i{font-size: 20px;color: #858b8f;position: absolute;right: -27px;top: 10px;}
+.hed-2{position: absolute;width: 60%;height: 59px;background:white;right: 54px}
+.hed-2 ul{top: 10px;position: absolute;background: white}
+.hed-2 ul li{display: inline-block;margin-right: 17px;background: white}
+.hed-2 ul li:nth-child(1){margin: 0}
+.hed-2 ul li a{text-decoration: none;margin-right: 5px;font-size: 18px;color:#445058;background: white }
+.hed-2 ul span{top:5px;line-height: 1;  color: white;font-size: 15px; background: #ff253a;width: 25px;height: 15px;border-radius: 30%;margin-right: 10px;position: absolute}
+.namber{position: relative;right: 1053px;top: 3px;background: white}
+.namber ul li i{font-size: 31px;}
+.namber ul li {background: white;}
+.namber ul li a {background: white;}
+.namber ul li i {background: white;}
+.namber i:nth-child(1){width: 43px;height: 38px;background:#f0f3f4;border-radius: 5px;color:#858b8f}
+/*--------------end header----------------*/
+
+/*-----------------min--------------------*/
+.min{width: 92%;height: 3050px;margin: auto;position: relative;overflow: hidden}
+.slider{width: 100%;height: 350px;background: #858b8f;position:relative;top: 20px;border-radius: 5px}
+.slider img{width: 100%;height:350px}
+.next,.prev{transform: translate(0,-50%); background: transparent; color: black;position: absolute;font-size:40px;top: 50%;text-decoration: none;}
+.next{right: 5px}
+.prev{left: 5px}
+.slide{display: none}
+.slide.active{display: block}
+.dots{position: absolute;text-align: center;width: 100%;top: 342px;background: transparent}
+.dot{display: inline-block;width: 10px;height: 10px;border-radius: 50%;background: black; }
+.dot.active{background:rosybrown;}
+.store-1{width: 100%;height: 76px;top: 390px;position: absolute;}
+.st-1{border-radius: 5px; width: 18.3%;height: 100%;background: white;display: inline-block;position:relative;margin-right: 22px}
+.st-1:nth-child(1){margin-right: 0}
+.st-1:nth-child(5){}
+.time{position: absolute;width: 100%;height: 45px;top:502px;background: white;border-radius: 3px }
+
+
+.sliders_2{width: 320%;height:312px;display: flex;position: absolute;top: 576px}
+.slide_2{width: 232.22px;height: 100%;position: relative;margin-right: 20px;border-radius: 7px;background: white}
+.slide_2 img{width: 100%;height: 70%;top: 25px;position: absolute}
+.slide_2 p{color: #ced0d1;background: transparent; position: absolute;top: 8px;right: 10px}
+.slide_2:nth-child(1){margin-right: 0}
+.red{text-align: center;color: white; position: absolute;width: 36%;height: 20px;background: #f53b57;top: 283px;border-bottom-right-radius: 15px;right: 9px;}
+.bluy{text-align: center;color: white; right: 92px;position: absolute;width: 53%;height: 20px;background:#2abcb5;top: 283px;border-top-left-radius: 15px;}
+
+.min_dot{display: flex;position: absolute;top: 914px;margin: auto;right: 491px;}
+.min_dot span{cursor: pointer; width: 15px;height: 4px;background: #ced0d1;margin-right: 12px;border-radius: 10px}
+.min_dot span:hover{background: #ff253a;}
+
+.show{width: 100%;height:222px;position: relative;top: 600px;display: flex}
+.show_img{width: 24%;height: 100%;position: relative;margin-right: 20px;background: darkcyan;border-radius: 10px}
+.show_img img{width: 100%;height: 100%;border-radius: 10px}
+.show_img:nth-child(1){margin-right: 0}
+
+/*-------------------TV---------------*/
+.tv{width: 100%;height: 60px;position: relative;top: 630px;display: flex;}
+.tv_1{width: 10%;height: 100%;}
+.tv_1 a{text-decoration: none;margin-right: 10px;font-size: 20px;background: transparent}
+.tv_1 i{font-size: 30px;margin-top: 10px;background: transparent}
+.tv_2{width: 81%;height: 1px;border-style: dashed;position: relative;top: 29px;border-left: none;border-bottom: none;border-right: none}
+.tv_3{width: 8%;height: 37%;position: absolute;border-radius: 15px;background: #858b8f;left: 0;top: 19px}
+.tv_3 a{text-decoration: none;margin-right: 10px;background: transparent;font-size: 17px}
+.tv_3 i{margin-right: 9px;border-radius: 50%;width: 9px;padding-right: 2px;background: red;color: white;}
+/*-----------------Refrigerator--------*/
+.re{width: 100%;height: 60px;position: relative;top: 990px;display: flex;}
+.re_1{width: 11%;height: 100%;}
+.re_1 a{text-decoration: none;margin-right: 10px;font-size: 20px;background: transparent}
+.re_1 i{font-size: 30px;margin-top: 10px;background: transparent}
+.re_2{width: 80%;height: 1px;border-style: dashed;position: relative;top: 29px;border-left: none;border-bottom: none;border-right: none}
+.re_3{width: 8%;height: 37%;position: absolute;border-radius: 15px;background: #858b8f;left: 0;top: 19px}
+.re_3 a{text-decoration: none;margin-right: 10px;background: transparent;font-size: 17px}
+.re_3 i{margin-right: 9px;border-radius: 50%;width: 9px;padding-right: 2px;background: red;color: white;}
+
+
+
+
+/*----------------------tv_show------------------------*/
+
+.tv_show{width: 320%;height:312px;display: flex;position: absolute;top: 1282px;}
+/*----------------------tv_box------------------------*/
+
+.tv_box{  width: 232px;height: 100%;position: relative;margin-right: 2px;border-radius: 7px;background: white}
+.tv_box:hover{box-shadow: 0px 4px 12px black;}
+.tv_box img:hover{width: 85%;height:41%; right: 10%;top: 40px}
+.tv_box img{ width: 75%;height: 31%;position: absolute;right: 12.5%;top: 59px;}
+.tv_box h2{position: absolute;top: 200px;right:13px; background: transparent}
+.tv_box span{position: absolute;top:230px; right: 15px; background: transparent }
+.buy{width: 45%;height: 30px;background:transparent;position: absolute;top: 266px;border-radius: 20px;right: 60px;border-style: dashed ;border-color: rosybrown;}
+.buy svg{width: 20%;top:4px;position: absolute;right:10px;background: transparent;color: white}
+.buy a{text-decoration: none;background: transparent;color: black;position: absolute;top: 7px; right: 32px;font-size: 14px;}
+.buy:hover a{color: white}
+.buy span{width: 80px;height: 20px;position: absolute;background: black;top: -29px;right: 12px;border-radius: 7px;opacity: 0.6;filter: alpha(opacity=50);display: none;}
+.buy p{  color: white;background: transparent;font-size: 11px;text-align: center;line-height: 2;}
+.triangledown {border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 5px solid
+;width: 0;height: 0;position: absolute;right: 45px;top: -9px;background: transparent;opacity: 0.5;filter: alpha(opacity=50);display: none;}
+.compare{cursor: pointer; position:absolute;width: 8%;left: 10px;top: 274px;background: transparent;display: none }
+.compare svg{background: transparent}
+.compare_t{width: 55px;height: 19px;position: absolute;background: black;top: 245px;right: 166px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.compare_t a{text-decoration: none;background: transparent;color: white;}
+.compare_b{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 184px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+.heart{position:absolute;width: 8%;right: 10px;top: 274px;background: transparent;display: none}
+.heart svg{background: transparent}
+.heart_t{width: 122px;height: 19px;position: absolute;background: black;top: 245px;right: 0px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.heart_t a{text-decoration: none;background: transparent;color: white;font-size: 12px;}
+.heart_b{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 38px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+
+/*----------------------tv_box1------------------------*/
+
+.tv_box1{  width: 232px;height: 100%;position: relative;margin-right: 15px;border-radius: 7px;background: white}
+.tv_box1:hover{box-shadow: 0px 4px 12px black;}
+.tv_box1 img:hover{width: 85%;height:41%; right: 10%;top: 40px}
+.tv_box1 img{ width: 75%;height: 31%;position: absolute;right: 12.5%;top: 59px;}
+.tv_box1 h2{position: absolute;top: 200px;right:13px; background: transparent}
+.tv_box1 span{position: absolute;top:230px; right: 15px; background: transparent }
+.buy1{width: 45%;height: 30px;background:transparent;position: absolute;top: 266px;border-radius: 20px;right: 60px;border-style: dashed ;border-color: rosybrown;}
+.buy1 svg{width: 20%;top:4px;position: absolute;right:10px;background: transparent;color: white}
+.buy1 a{text-decoration: none;background: transparent;color: black;position: absolute;top: 7px; right: 32px;font-size: 14px;}
+.buy1:hover a{color: white}
+.buy1 span{width: 80px;height: 20px;position: absolute;background: black;top: -29px;right: 12px;border-radius: 7px;opacity: 0.6;filter: alpha(opacity=50);display: none;}
+.buy1 p{  color: white;background: transparent;font-size: 11px;text-align: center;line-height: 2;}
+.triangledown1 {border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 5px solid
+;width: 0;height: 0;position: absolute;right: 45px;top: -9px;background: transparent;opacity: 0.5;filter: alpha(opacity=50);display: none;}
+.compare1{cursor: pointer; position:absolute;width: 8%;left: 10px;top: 274px;background: transparent;display: none }
+.compare1 svg{background: transparent}
+.compare_t1{width: 55px;height: 19px;position: absolute;background: black;top: 245px;right: 166px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.compare_t1 a{text-decoration: none;background: transparent;color: white;}
+.compare_b{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 184px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+.heart1{position:absolute;width: 8%;right: 10px;top: 274px;background: transparent;display: none}
+.heart1 svg{background: transparent}
+.heart_t1{width: 122px;height: 19px;position: absolute;background: black;top: 245px;right: 0px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.heart_t1 a{text-decoration: none;background: transparent;color: white;font-size: 12px;}
+.heart_b1{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 38px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+
+/*----------------------tv_box2------------------------*/
+
+.tv_box2{  width: 232px;height: 100%;position: relative;margin-right: 15px;border-radius: 7px;background: white}
+.tv_box2:hover{box-shadow: 0px 4px 12px black;}
+.tv_box2 img:hover{width: 85%;height:41%; right: 10%;top: 40px}
+.tv_box2 img{ width: 75%;height: 31%;position: absolute;right: 12.5%;top: 59px;}
+.tv_box2 h2{position: absolute;top: 200px;right:13px; background: transparent}
+.tv_box2 span{position: absolute;top:230px; right: 15px; background: transparent }
+.buy2{width: 45%;height: 30px;background:transparent;position: absolute;top: 266px;border-radius: 20px;right: 60px;border-style: dashed ;border-color: rosybrown;}
+.buy2 svg{width: 20%;top:4px;position: absolute;right:10px;background: transparent;color: white}
+.buy2 a{text-decoration: none;background: transparent;color: black;position: absolute;top: 7px; right: 32px;font-size: 14px;}
+.buy2:hover a{color: white}
+.buy2 span{width: 80px;height: 20px;position: absolute;background: black;top: -29px;right: 12px;border-radius: 7px;opacity: 0.6;filter: alpha(opacity=50);display: none;}
+.buy2 p{  color: white;background: transparent;font-size: 11px;text-align: center;line-height: 2;}
+.triangledown2 {border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 5px solid
+;width: 0;height: 0;position: absolute;right: 45px;top: -9px;background: transparent;opacity: 0.5;filter: alpha(opacity=50);display: none;}
+.compare2{cursor: pointer; position:absolute;width: 8%;left: 10px;top: 274px;background: transparent;display: none }
+.compare2 svg{background: transparent}
+.compare_t2{width: 55px;height: 19px;position: absolute;background: black;top: 245px;right: 166px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.compare_t2 a{text-decoration: none;background: transparent;color: white;}
+.compare_b2{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 184px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+.heart2{position:absolute;width: 8%;right: 10px;top: 274px;background: transparent;display: none}
+.heart2 svg{background: transparent}
+.heart_t2{width: 122px;height: 19px;position: absolute;background: black;top: 245px;right: 0px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.heart_t2 a{text-decoration: none;background: transparent;color: white;font-size: 12px;}
+.heart_b2{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 38px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+
+
+
+/*----------------------tv_box3------------------------*/
+
+.tv_box3{  width: 232px;height: 100%;position: relative;margin-right: 15px;border-radius: 7px;background: white}
+.tv_box3:hover{box-shadow: 0px 4px 12px black;}
+.tv_box3 img:hover{width: 85%;height:41%; right: 10%;top: 40px}
+.tv_box3 img{ width: 75%;height: 31%;position: absolute;right: 12.5%;top: 59px;}
+.tv_box3 h2{position: absolute;top: 200px;right:13px; background: transparent}
+.tv_box3 span{position: absolute;top:230px; right: 15px; background: transparent }
+.buy3{width: 45%;height: 30px;background:transparent;position: absolute;top: 266px;border-radius: 20px;right: 60px;border-style: dashed ;border-color: rosybrown;}
+.buy3 svg{width: 20%;top:4px;position: absolute;right:10px;background: transparent;color: white}
+.buy3 a{text-decoration: none;background: transparent;color: black;position: absolute;top: 7px; right: 32px;font-size: 14px;}
+.buy3:hover a{color: white}
+.buy3 span{width: 80px;height: 20px;position: absolute;background: black;top: -29px;right: 12px;border-radius: 7px;opacity: 0.6;filter: alpha(opacity=50);display: none;}
+.buy3 p{  color: white;background: transparent;font-size: 11px;text-align: center;line-height: 2;}
+.triangledown3 {border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 5px solid
+;width: 0;height: 0;position: absolute;right: 45px;top: -9px;background: transparent;opacity: 0.5;filter: alpha(opacity=50);display: none;}
+.compare3{cursor: pointer; position:absolute;width: 8%;left: 10px;top: 274px;background: transparent;display: none }
+.compare3 svg{background: transparent}
+.compare_t3{width: 55px;height: 19px;position: absolute;background: black;top: 245px;right: 166px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.compare_t3 a{text-decoration: none;background: transparent;color: white;}
+.compare_b3{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 184px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+.heart3{position:absolute;width: 8%;right: 10px;top: 274px;background: transparent;display: none}
+.heart3 svg{background: transparent}
+.heart_t3{width: 122px;height: 19px;position: absolute;background: black;top: 245px;right: 0px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.heart_t3 a{text-decoration: none;background: transparent;color: white;font-size: 12px;}
+.heart_b3{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 38px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+
+
+
+/*----------------------tv_box4------------------------*/
+
+.tv_box4{  width: 232px;height: 100%;position: relative;margin-right: 15px;border-radius: 7px;background: white}
+.tv_box4:hover{box-shadow: 0px 4px 12px black;}
+.tv_box4 img:hover{width: 85%;height:41%; right: 10%;top: 40px}
+.tv_box4 img{ width: 75%;height: 31%;position: absolute;right: 12.5%;top: 59px;}
+.tv_box4 h2{position: absolute;top: 200px;right:13px; background: transparent}
+.tv_box4 span{position: absolute;top:230px; right: 15px; background: transparent }
+.buy4{width: 45%;height: 30px;background:transparent;position: absolute;top: 266px;border-radius: 20px;right: 60px;border-style: dashed ;border-color: rosybrown;}
+.buy4 svg{width: 20%;top:4px;position: absolute;right:10px;background: transparent;color: white}
+.buy4 a{text-decoration: none;background: transparent;color: black;position: absolute;top: 7px; right: 32px;font-size: 14px;}
+.buy4:hover a{color: white}
+.buy4 span{width: 80px;height: 20px;position: absolute;background: black;top: -29px;right: 12px;border-radius: 7px;opacity: 0.6;filter: alpha(opacity=50);display: none;}
+.buy4 p{  color: white;background: transparent;font-size: 11px;text-align: center;line-height: 2;}
+.triangledown4 {border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 5px solid
+;width: 0;height: 0;position: absolute;right: 45px;top: -9px;background: transparent;opacity: 0.5;filter: alpha(opacity=50);display: none;}
+.compare4{cursor: pointer; position:absolute;width: 8%;left: 10px;top: 274px;background: transparent;display: none }
+.compare4 svg{background: transparent}
+.compare_t4{width: 55px;height: 19px;position: absolute;background: black;top: 245px;right: 166px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.compare_t4 a{text-decoration: none;background: transparent;color: white;}
+.compare_b4{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 184px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+.heart4{position:absolute;width: 8%;right: 10px;top: 274px;background: transparent;display: none}
+.heart4 svg{background: transparent}
+.heart_t4{width: 122px;height: 19px;position: absolute;background: black;top: 245px;right: 0px;border-radius: 7px;opacity: 0.4;filter: alpha(opacity=50);text-align: center;display: none;}
+.heart_t4 a{text-decoration: none;background: transparent;color: white;font-size: 12px;}
+.heart_b4{border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 11px solid;width: 0;height: 0;position: absolute;right: 38px;top: 264px;background: transparent;opacity: 0.4;filter: alpha(opacity=50);display: none;}
+
+
+/*-------------PAGE ALL-----------------------------*/
+
+/*------------------------all brand----------------------*/
+.all_1{width: 100%;height: 40px;position: absolute;background: white;border-radius: 10px;top: 20px}
+.all_2{width: 20%;position: absolute;background: white;overflow-y:scroll; top: 150px;height: 200px;}
+.all_2 ul{background: #ced0d1;}
+.all_2 ul li{background: #ced0d1;list-style: none;width:30%;padding:10px;}
+.all_2 ul li a{background:transparent;text-decoration: none;color: black;font-size: 20px}
+.p_brand{position: absolute;
+    font-size: 25px;
+    background: white;
+    right: 0px;
+    top: 112px;
+    width: 19%;
+    height: 39px;
+    padding-right: 11px;}
+/*-------------------------all color-----------------*/
+.all_color{width: 20%;position: absolute;background: white;overflow-y:scroll; top: 450px;height: 200px;}
+.all_color ul{background: #ced0d1;}
+.all_color ul li{background: #ced0d1;list-style: none;width:30%;padding:10px;}
+.all_color ul li a{background:transparent;text-decoration: none;color: black;font-size: 20px}
+.p_color{position: absolute;
+    font-size: 25px;
+    background: white;
+    right: 0px;
+    top: 410px;
+    width: 19%;
+    height: 39px;
+    padding-right: 11px;}
+/*-------------------TV---------------*/
+.tv_all{width: 79%;
+    height: 62px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    right: 385px;
+    background: transparent;}
+.tv_all_1{width: 10%;height: 100%;}
+.tv_all_1 a{text-decoration: none;margin-right: 10px;font-size: 20px;background: transparent}
+.tv_all_1 i{font-size: 30px;margin-top: 10px;background: transparent}
+.tv_all_2{width: 81%;height: 1px;border-style: dashed;position: relative;top: 29px;border-left: none;border-bottom: none;border-right: none}
+.all_3{width: 69%;
+    height: 50px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    top: 165px;
+    right: 385px;}
+.all_4{width: 70%;position: relative;border-radius: 10px;top: 154px;right: 373px;}
+
+
+.all_box{ position:relative; float: right; width: 32%;height: 400px;margin-right: 11px;border-radius: 20px;background: white;margin-top: 15px}
+.all_box:hover{box-shadow: 0px 4px 12px black;}
+.all_box img:hover{ width: 85%;height:41%; right: 7%;top: 40px}
+.all_box img{ position: absolute;
+    width: 78%;
+    height: 50%;
+    right: 11.5%;
+    top: 42px;
+    border-radius: 15px;
+}
+.all_box h2{position: absolute;top: 250px;right:13px; background: transparent}
+.all_box span{position: absolute;top:300px; right: 15px; background: transparent }
+.all_box h3{position: absolute;top: 10px;right: 10px;background: transparent}
+.all_box h4{position: absolute;background: transparent;top: 350px;right: 220px}
+.all_box p{position: absolute;
+    background: transparent;
+    top: 250px;
+    right: 220px;
+    font-size: 20px;}
+
+
+/*-----------------------مدیریت---------------------*/
+.box{width: 100%;position: relative}
+.box_right{position:absolute; width: 20%;height: 600px;background: black;}
+.box_right ul{position: absolute;background: transparent;width: 100%;right: 24px;top: 70px}
+.box_right ul li{ line-height: 2; text-align: center; margin-top: 30px;border-radius: 10px; list-style: none;background: transparent;width: 80%;height: 40px;background: #2abcb5}
+.box_right ul li a{background: transparent;color: white;text-decoration: none;font-size: 20px}
+.box p{position: absolute;top: 10px;right: 89px;background: transparent;font-size: 36px;color: white}
+.box_left{position: absolute;width: 50%;top: 100px;right: 500px;height: 100px;}
+.box_left form{position: absolute;background: transparent;width: 90%}
+.box_left input{ width: 100%;height: 38px;border-radius: 8px;border: none;  box-shadow: 3px 6px 15px -2px;font-size: 15px}
+.box_left button{cursor: pointer; width: 82%;position: absolute;right: 48px;height: 41px;border: none;background: green;border-radius: 11px;color: white;font-size: 26px;box-shadow: 3px 6px 15px -2px black;}
+.box_left select{box-shadow: 3px 6px 15px -2px;width: 20%;height: 38px;border-radius: 8px;border: 1px;font-size: 20px}
+.box_left p{position: absolute;
+    top: -68px;
+    right: 0px;
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 21px;
+    color: red;
+    box-shadow: 3px 6px 15px -2px;
+}
+.box_left span{
+    position: absolute;
+    top: -68px;
+    right: 0px;
+    border: 1px solid green;
+    padding: 5px;
+    font-size: 21px;
+    color: green;
+    box-shadow: 3px 6px 15px -2px;
+}
+
+
+
+
+
+
+
+
