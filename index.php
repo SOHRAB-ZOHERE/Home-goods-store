@@ -14,7 +14,7 @@ LoginUsers();
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
 
 
-    <title>کالای خانه</title>
+    <title>کالای  خانه</title>
 </head>
 <body>
  <div class="header">
